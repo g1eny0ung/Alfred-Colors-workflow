@@ -1,7 +1,7 @@
 require './rgb'
 
 class HSL
-  PATTERN = /^(hsl)?\s?(\d{1,3})(-|,|\s|\|)*(\d{1,3})%(-|,|\s|\|)*(\d{1,3})%$/i
+  PATTERN = /^(hsl)?\s?\(?(\d{1,3})(-|,|\s|\|)*(\d{1,3})%(-|,|\s|\|)*(\d{1,3})%\)?$/i
   attr_reader :hsl
 
   def initialize(input)
@@ -55,5 +55,3 @@ class HSL
     @hsl = [hsl[1], hsl[3], hsl[5]].map(&:to_i)
   end
 end
-
-HSL.new("hsl 0 60 38")

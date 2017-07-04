@@ -1,7 +1,7 @@
 require './hex'
 
 class RGB
-  PATTERN = /^(rgb)?\s?(\d{1,3})(-|,|\s|\|)*(\d{1,3})(-|,|\s|\|)*(\d{1,3})$/i
+  PATTERN = /^(rgb)?\s?\(?(\d{1,3})(-|,|\s|\|)*(\d{1,3})(-|,|\s|\|)*(\d{1,3})\)?$/i
   attr_reader :rgb
   attr_reader :hsl
 
