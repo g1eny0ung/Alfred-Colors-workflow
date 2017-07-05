@@ -6,6 +6,13 @@ The keyword is **c**, you can change it with you habits.
 
 ![gif](c.gif)
 
+# Pre Install
+
+```
+brew install ruby
+gem install chunky_png
+```
+
 ## Format
 ### hex 
 
