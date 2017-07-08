@@ -14,6 +14,12 @@ gem install chunky_png
 ```
 
 ## Format
+
+### keywords
+
+* black => #000
+* darkblue => #00008b
+* yellowgreen => #9acd32
 ### hex 
 
 * #ffffff
