@@ -1,13 +1,19 @@
 require 'json'
 require 'chunky_png'
 
-require './hex'
-require './rgb'
-require './hsl'
+require_relative 'hex'
+require_relative 'rgb'
+require_relative 'hsl'
+require_relative 'keywords'
 
 arg = ARGV[0]
 
-if HSL::PATTERN =~ arg
+if Results.key?(arg)
+  origin = HEX.new(Results[arg])
+  rgb = origin.to_rgb
+  hsl = origin.to_hsl
+  hex = origin.hex[0] == '#' ? origin.hex : '#' + origin.hex
+elsif HSL::PATTERN =~ arg
   origin = HSL.new(arg)
   rgb = origin.to_rgb
   hsl = origin.hsl

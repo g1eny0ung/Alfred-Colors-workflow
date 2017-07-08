@@ -1,4 +1,4 @@
-require './hex'
+require_relative 'hex'
 
 class RGB
   PATTERN = /^(rgb)?\s?\(?(\d{1,3})(-|,|\s|\|)*(\d{1,3})(-|,|\s|\|)*(\d{1,3})\)?$/i

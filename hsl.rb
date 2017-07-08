@@ -1,4 +1,4 @@
-require './rgb'
+require_relative 'rgb'
 
 class HSL
   PATTERN = /^(hsl)?\s?\(?(\d{1,3})(-|,|\s|\|)*(\d{1,3})%(-|,|\s|\|)*(\d{1,3})%\)?$/i
