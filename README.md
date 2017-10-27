@@ -1,10 +1,10 @@
 # Alfred-Colors-workflow
 
-Convert css colors(**hex, rgb, hsl**)
+Css colors conversion(**hex, rgb, hsl**)
 
 The keyword is **c**, you can change it with you habits.
 
-![gif](c.gif)
+![demo](demo.gif)
 
 # Pre Install
 
@@ -12,10 +12,6 @@ The keyword is **c**, you can change it with you habits.
 brew install ruby
 gem install chunky_png
 ```
-
-# How to dev
-
- 
 
 # Format
 
