@@ -45,25 +45,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>1CB5CD81-4186-449D-8DC3-A5C09390D429</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -108,6 +93,23 @@
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>1CB5CD81-4186-449D-8DC3-A5C09390D429</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
@@ -123,7 +125,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Css colors conversion</string>
 	<key>uidata</key>
 	<dict>
 		<key>1CB5CD81-4186-449D-8DC3-A5C09390D429</key>
@@ -145,9 +147,11 @@
 			<key>xpos</key>
 			<integer>80</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>90</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>g1eny0ung.github.io</string>
 </dict>

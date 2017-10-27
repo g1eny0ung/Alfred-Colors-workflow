@@ -13,7 +13,11 @@ brew install ruby
 gem install chunky_png
 ```
 
-## Format
+# How to dev
+
+ 
+
+# Format
 
 ### keywords
 
@@ -24,7 +28,7 @@ gem install chunky_png
 
 * #ffffff
 * ffffff
-*  #fff
+* #fff
 * fff
 
 ### rgb 

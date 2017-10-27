@@ -1,10 +1,10 @@
 require 'json'
 require 'chunky_png'
 
-require_relative 'hex'
-require_relative 'rgb'
-require_relative 'hsl'
-require_relative 'keywords'
+require_relative 'lib/hex'
+require_relative 'lib/rgb'
+require_relative 'lib/hsl'
+require_relative 'lib/keywords'
 
 arg = ARGV[0]
 
