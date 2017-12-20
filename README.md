@@ -1,5 +1,7 @@
 # Alfred-Colors-workflow
 
+[Download](https://github.com/g1eny0ung/Alfred-Colors-workflow/raw/master/dist/Colors.alfredworkflow)
+
 Css colors conversion(**hex, rgb, hsl**)
 
 The keyword is **c**, you can change it with you habits.
