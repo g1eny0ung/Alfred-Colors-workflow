@@ -8,14 +8,14 @@ The keyword is **c**, you can change it with you habits.
 
 ![demo](demo.gif)
 
-# Pre Install
+## Pre Install
 
 ```
 brew install ruby
 gem install chunky_png
 ```
 
-# Format
+## Format
 
 ### keywords
 
