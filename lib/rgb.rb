@@ -32,4 +32,3 @@ class RGB
     hex.length == 1 ? '0' + hex : hex
   end
 end
-
