@@ -10,7 +10,7 @@ The keyword is **c**, you can change it with you habits.
 
 ## Pre Install
 
-```
+```sh
 brew install ruby
 gem install chunky_png
 ```
@@ -22,7 +22,8 @@ gem install chunky_png
 * black => #000
 * darkblue => #00008b
 * yellowgreen => #9acd32
-### hex 
+
+### hex
 
 * #ffffff
 * ffffff
@@ -44,3 +45,7 @@ gem install chunky_png
 
 * hsl(0, 0%, 100%)
 * same as rgb
+
+## Credits
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
