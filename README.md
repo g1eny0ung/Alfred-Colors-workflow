@@ -30,7 +30,7 @@ gem install chunky_png
 * #fff
 * fff
 
-### rgb 
+### rgb
 
 > rgb(...) is optional
 
