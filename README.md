@@ -15,7 +15,7 @@ brew install ruby
 gem install chunky_png
 ```
 
-## Format
+## Formats
 
 ### keywords
 
@@ -35,9 +35,9 @@ gem install chunky_png
 > rgb(...) is optional
 
 * rgb(255, 255, 255)
-* rgb(255|255|255)
-* rgb(255 255 255)
 * rgb(255-255-255)
+* rgb(255 255 255)
+* rgb(255|255|255)
 
 ### hsl
 
