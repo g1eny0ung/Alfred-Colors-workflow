@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 class HEX
-  SHORT_PATTERN = /^#?([a-f\d])([a-f\d])([a-f\d])$/i
-  PATTERN = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i
+  SHORT_PATTERN = /^#?([a-f\d])([a-f\d])([a-f\d])$/i.freeze
+  PATTERN = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.freeze
   attr_reader :hex
 
-  def initialize(input_hex)
-    @hex = input_hex
+  def initialize(input)
+    @hex = input
   end
 
   def to_rgb
@@ -12,7 +14,7 @@ class HEX
       rgb = [Regexp.last_match(1),
              Regexp.last_match(2),
              Regexp.last_match(3)].map do |x|
-        (x + x).to_i(16)
+        (x + x).hex
       end
     end
 
@@ -20,9 +22,7 @@ class HEX
       rgb =
         [Regexp.last_match(1),
          Regexp.last_match(2),
-         Regexp.last_match(3)].map do |x|
-          x.to_i(16)
-        end
+         Regexp.last_match(3)].map(&:hex)
     end
 
     rgb
@@ -40,6 +40,7 @@ class HEX
     else
       d = max - min
       s = l > 0.5 ? d / (2 - max - min) : d / (max + min)
+
       case max
       when r
         h = (g - b) / d + (g < b ? 6 : 0)
@@ -48,8 +49,10 @@ class HEX
       when b
         h = (r - g) / d + 4
       end
+
       h /= 6
     end
+
     [(h.round(2) * 360).to_i, (s.round(2) * 100).to_i, (l.round(2) * 100).to_i]
   end
 end
