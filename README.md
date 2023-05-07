@@ -19,7 +19,7 @@ gem install chunky_png
 
 ### keywords
 
-Use keywords to represent colors, you can find all keywords in [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/#named-colors).
+> Use keywords to represent colors, you can find all keywords in <https://developer.mozilla.org/en-US/docs/Web/CSS/named-color>.
 
 - black => #000
 - darkblue => #00008b
@@ -27,7 +27,7 @@ Use keywords to represent colors, you can find all keywords in [CSS Color Module
 
 ### hex
 
-Use hex to represent colors, you can use the following formats (`#` can be omitted):
+> Use hex to represent colors, you can use the following formats (`#` can be omitted):
 
 - #ffffff
 - ffffff
