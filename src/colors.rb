@@ -38,6 +38,7 @@ png.save(iconname)
 
 hex_title = hex
 rgb_title = "rgb(#{rgb[0]}, #{rgb[1]}, #{rgb[2]})"
+rgba_title = "rgba(#{rgb[0]}, #{rgb[1]}, #{rgb[2]}, 1)"
 hsl_title = "hsl(#{hsl[0]}, #{hsl[1]}%, #{hsl[2]}%)"
 
 results = { items: [
@@ -53,6 +54,14 @@ results = { items: [
     title: rgb_title,
     subtitle: 'RGB',
     arg: rgb_title,
+    icon: {
+      path: iconname
+    }
+  },
+  {
+    title: rgba_title,
+    subtitle: 'RGBA',
+    arg: rgba_title,
     icon: {
       path: iconname
     }
