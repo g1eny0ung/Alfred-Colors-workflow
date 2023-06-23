@@ -3,7 +3,7 @@
 require_relative 'hex'
 
 class RGB
-  PATTERN = /^(rgb)?\s?\(?(\d{1,3})(,|-|\s|\|)*(\d{1,3})(,|-|\s|\|)*(\d{1,3})\)?$/i.freeze
+  PATTERN = /^(rgba?)?\s?\(?(\d{1,3})(,|-|\s|\|)*(\d{1,3})(,|-|\s|\|)*(\d{1,3})(,|-|\s|\|)*([\d\.]*)\)?$/i.freeze
   attr_reader :rgb, :hsl
 
   def initialize(input)
